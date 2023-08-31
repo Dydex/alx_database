@@ -1,3 +1,6 @@
 -- This script prints the full description of the table
+-- CREATE DATABASE hbtn_0c_0;
 USE hbtn_0c_0;
-SELECT * FROM first_table; 
+CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
+SHOW tables;
+SHOW COLUMNS FROM first_table; 
