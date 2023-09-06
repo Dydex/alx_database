@@ -1,5 +1,5 @@
 -- This script lists all the cities of california on this database
-USE hbth_0d_usa;
+USE hbtn_0d_usa;
 
 -- Find the state_id for california 
 SELECT id INTO @california_state_id FROM states name = 'California';
