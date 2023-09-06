@@ -1,4 +1,6 @@
 -- This script lists all the cities of california on this database
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+
 USE hbtn_0d_usa;
 
 -- Find the state_id for california 
