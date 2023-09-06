@@ -2,7 +2,7 @@
 USE hbtn_0d_usa;
 
 -- Find the state_id for california 
-SELECT id INTO @california_state_id FROM states name = 'California';
+SELECT id INTO @california_state_id FROM states WHERE name = 'California';
 
 -- List all cities of california 
 SELECT cities.name
