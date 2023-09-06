@@ -8,6 +8,8 @@ CREATE TABLE states (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(256) NOT NU
 -- Find the state_id for california 
 SELECT id INTO @california_state_id FROM states WHERE name = 'California';
 
+CREATE TABLE cities (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(256) NOT NULL);
+
 -- List all cities of california 
 SELECT cities.name
 FROM cities
